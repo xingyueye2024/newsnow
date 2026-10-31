@@ -1,0 +1,8 @@
+import styles from './ai-assistant-links.module.css';
+type Copy = { title:string; description:string; note:string; resources_title:string; index:string; full:string; sitemap:string; prompt:string };
+export function AiAssistantLinks({name,site,copy,resources}:{name:string;site:string;copy:Copy;resources:string[]}) {
+  const render=(value:string)=>value.replaceAll('{name}',name).replaceAll('{site}',site);
+  const query=encodeURIComponent(render(copy.prompt));
+  const providers=[['chatgpt','ChatGPT','https://chatgpt.com/?q='],['claude','Claude','https://claude.ai/new?q='],['perplexity','Perplexity','https://www.perplexity.ai/search?q='],['google','Google AI','https://www.google.com/search?udm=50&aep=11&q='],['grok','Grok','https://grok.com/?q=']];
+  return <section className={styles.region} data-behavior-section="ask-ai" aria-label={render(copy.title)}><div className={styles.grid}><div className={styles.content}><h2>{render(copy.title)}</h2><p>{render(copy.description)}</p><div className={styles.providers}>{providers.map(([id,label,url])=><a key={id} data-behavior-id={'ask-ai-'+id} href={url+query} target="_blank" rel="noopener noreferrer">{label}<span aria-hidden="true">↗</span></a>)}</div><p className={styles.note}>{copy.note}</p></div>{resources.length>0&&<div className={styles.resources}><h3>{copy.resources_title}</h3>{resources.map(path=><a key={path} href={path} target="_blank" rel="noopener noreferrer"><span>{path==='/sitemap.xml'?'Sitemap':path.slice(1)}</span><small>{path==='/llms.txt'?copy.index:path==='/llms-full.txt'?copy.full:copy.sitemap}</small><span aria-hidden="true">↗</span></a>)}</div>}</div></section>;
+}

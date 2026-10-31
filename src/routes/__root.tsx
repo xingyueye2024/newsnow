@@ -1,3 +1,4 @@
+import { AskAi } from "../components/ask-ai";
 import "~/styles/globals.css"
 import "virtual:uno.css"
 import { Outlet, createRootRouteWithContext } from "@tanstack/react-router"
@@ -62,6 +63,7 @@ function RootComponent() {
         </main>
         <footer className="py-6 flex flex-col items-center justify-center text-sm text-neutral-500 font-mono">
           <Footer />
+          <AskAi />
         </footer>
       </GlobalOverlayScrollbar>
       <Toast />

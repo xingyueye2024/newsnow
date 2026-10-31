@@ -1,0 +1,31 @@
+{
+  "id": "allnews",
+  "canonical": "https://allnews.pro",
+  "baseline": "8870923ea31174483eb5e0d8f3eba9454d58d3c4",
+  "implemented": true,
+  "production_build": "PASS",
+  "build_log": "/Users/tina/Documents/Codex/2026-10-31/ai-footer-fleet/logs/allnews-build.log",
+  "resources_baseline": [
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "type": "text/html",
+      "valid": false
+    },
+    {
+      "path": "/llms-full.txt",
+      "status": 200,
+      "type": "text/html",
+      "valid": false
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "type": "application/xml",
+      "valid": true
+    }
+  ],
+  "security_review": "public fixed strings + encoded HTTPS anchors only; no private input or new backend",
+  "deployment": "NOT_VERIFIED",
+  "outcome": "NOT_MEASURED"
+}

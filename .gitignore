@@ -14,3 +14,5 @@ wrangler.toml
 imports.app.d.ts
 package-lock.json
 .specstory/
+# Local secrets and development database never belong in source control.
+/data/local.db
