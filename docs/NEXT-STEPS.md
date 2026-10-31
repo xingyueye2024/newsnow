@@ -2,10 +2,10 @@
 
 ## Metadata
 - Schema: handoff-v2
-- Updated: 2026-10-31T15:35:04.836922+00:00
+- Updated: 2026-10-31T15:40:34.300261+00:00
 - Tool: Codex
 - Branch: codex/ai-footer-20261031
-- HEAD: 24f3c4ee18994bf95b48ad3b19e6198d46a59eff
+- HEAD: 70a8139effde2decf310d25b3a1c50d43ffa97e7
 - Working tree: scoped footer acceptance documentation
 
 ## Current outcome
@@ -30,10 +30,14 @@
 - Prior task SSOT: git show 8870923ea31174483eb5e0d8f3eba9454d58d3c4:docs/NEXT-STEPS.md
 
 ## Boundaries
+- Third-party AI answers/citations and commercial lift UNKNOWN / NOT_VERIFIED.
 - Public links contain brand/origin and fixed question only; no user/session/input/media data. Existing auth/payment/provider/private routes preserved.
 - No new analytics collector, scheduler, DNS/rules/proxy/service/production data change. MoFont excluded.
 - Evidence branch does not trigger a redundant production rebuild; the deployed source SHA remains the release anchor.
 - Missing exposure/consent/sample is NOT_MEASURED. Outbound clicks do not establish AI submissions, citations, ranking or conversion lift.
+
+## Decisions and rationale
+- Retain the product shell, fixed public prompts and existing consented observation; avoid duplicate collectors.
 
 ## Failed attempts / do-not-retry
 - Four Workers emitted empty Paraglide modules after a swallowed plugin download error; exact rollback and compiler completeness guard preceded successful repair.
@@ -49,3 +53,8 @@
 
 ## Resume prompt
 - Continue the recorded prior project task or existing sample-gated AI-footer observation. Footer delivery is live-verified; no further rollout/push is pending. Preserve unrelated unpublished canonical work and owner gates.
+
+## Deep runbooks
+- /Users/tina/Documents/runbooks/handoff-doc-convention.md
+- /Users/tina/Documents/runbooks/auto-deploy-5090-pipeline.md
+- Shared shipany-patches058 and fleet acceptance artifacts
