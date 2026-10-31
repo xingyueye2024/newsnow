@@ -1,31 +1,82 @@
 {
   "id": "allnews",
-  "canonical": "https://allnews.pro",
-  "baseline": "8870923ea31174483eb5e0d8f3eba9454d58d3c4",
-  "implemented": true,
-  "production_build": "PASS",
-  "build_log": "/Users/tina/Documents/Codex/2026-10-31/ai-footer-fleet/logs/allnews-build.log",
-  "resources_baseline": [
-    {
-      "path": "/llms.txt",
+  "repo": "xingyueye2024/newsnow",
+  "domain": "allnews.pro",
+  "framework": "other",
+  "deploy": "cf-pages",
+  "checkout": "/Users/tina/Documents/Codex/2026-10-31/ai-footer-fleet/worktrees/newsnow",
+  "canonical_domain": "allnews.pro",
+  "build": "pass",
+  "security": "PASS",
+  "commit": "24f3c4ee18994bf95b48ad3b19e6198d46a59eff",
+  "pushed": true,
+  "deploy_commit": null,
+  "deploy_source_branch": null,
+  "rolled_back": null,
+  "rollback_version": null,
+  "runtime_error": null,
+  "deployment_repair": null,
+  "footer_commit": "24f3c4ee18994bf95b48ad3b19e6198d46a59eff",
+  "browser": {
+    "375": {
+      "domain": "allnews.pro",
+      "width": 375,
       "status": 200,
-      "type": "text/html",
-      "valid": false
+      "title": "NewsNow | 最热",
+      "links": 6,
+      "minHeight": 44,
+      "safe": true,
+      "sectionOverflow": false,
+      "overflow": false,
+      "first": "https://chatgpt.com/?q=%E8%AF%B7%E6%A0%B9%E6%8D%AE%20https%3A%2F%2Fallnews.pro%20%E5%8F%8A%E5%85%B6%E9%93%BE%E6%8E%A5%E7%9A%84%E5%85%AC%E5%BC%80%E9%A1%B5%E9%9D%A2%EF%BC%8C%E4%BB%8B%E7%BB%8D%20NewsNow%20%E6%8F%90%E4%BE%9B%E4%BB%80%E4%B9%88%E3%80%81%E9%80%82%E5%90%88%E8%B0%81%E3%80%81%E6%80%8E%E6%A0%B7%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E3%80%82%E8%AF%B7%E9%99%84%E4%B8%8A%E6%9D%A5%E6%BA%90%E9%93%BE%E6%8E%A5%EF%BC%8C%E5%B9%B6%E4%BB%A5%E6%9C%AC%E7%AB%99%E4%B8%BA%E5%87%86%E6%A0%B8%E5%AF%B9%E6%9C%80%E6%96%B0%E4%BB%B7%E6%A0%BC%E3%80%82%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E7%9A%84%E8%B5%84%E6%96%99%E8%AF%B7%E6%98%8E%E7%A1%AE%E8%AF%B4%E6%98%8E%E3%80%82%E8%AF%B7%E7%94%A8%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%9B%9E%E7%AD%94%E3%80%82"
     },
-    {
-      "path": "/llms-full.txt",
+    "1440": {
+      "domain": "allnews.pro",
+      "width": 1440,
       "status": 200,
-      "type": "text/html",
-      "valid": false
-    },
+      "title": "NewsNow | 最热",
+      "links": 6,
+      "minHeight": 44,
+      "safe": true,
+      "sectionOverflow": false,
+      "overflow": false,
+      "first": "https://chatgpt.com/?q=%E8%AF%B7%E6%A0%B9%E6%8D%AE%20https%3A%2F%2Fallnews.pro%20%E5%8F%8A%E5%85%B6%E9%93%BE%E6%8E%A5%E7%9A%84%E5%85%AC%E5%BC%80%E9%A1%B5%E9%9D%A2%EF%BC%8C%E4%BB%8B%E7%BB%8D%20NewsNow%20%E6%8F%90%E4%BE%9B%E4%BB%80%E4%B9%88%E3%80%81%E9%80%82%E5%90%88%E8%B0%81%E3%80%81%E6%80%8E%E6%A0%B7%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E3%80%82%E8%AF%B7%E9%99%84%E4%B8%8A%E6%9D%A5%E6%BA%90%E9%93%BE%E6%8E%A5%EF%BC%8C%E5%B9%B6%E4%BB%A5%E6%9C%AC%E7%AB%99%E4%B8%BA%E5%87%86%E6%A0%B8%E5%AF%B9%E6%9C%80%E6%96%B0%E4%BB%B7%E6%A0%BC%E3%80%82%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E7%9A%84%E8%B5%84%E6%96%99%E8%AF%B7%E6%98%8E%E7%A1%AE%E8%AF%B4%E6%98%8E%E3%80%82%E8%AF%B7%E7%94%A8%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%9B%9E%E7%AD%94%E3%80%82"
+    }
+  },
+  "mobile_desktop_verified": true,
+  "resources": [
     {
-      "path": "/sitemap.xml",
+      "id": "allnews",
+      "url": "https://allnews.pro/sitemap.xml",
       "status": 200,
-      "type": "application/xml",
-      "valid": true
+      "mime": "application/xml",
+      "valid": true,
+      "bytes": 262
     }
   ],
-  "security_review": "public fixed strings + encoded HTTPS anchors only; no private input or new backend",
-  "deployment": "NOT_VERIFIED",
-  "outcome": "NOT_MEASURED"
+  "resource_verified": true,
+  "runtime": {
+    "id": "6598ba23-518c-418e-8e56-7ff76c11b5cc",
+    "url": "https://6598ba23.all-news-d7a.pages.dev",
+    "created_on": "2026-10-31T14:55:42.732721Z",
+    "status": "success",
+    "commit": "24f3c4ee18994bf95b48ad3b19e6198d46a59eff",
+    "domains": [
+      "all-news-d7a.pages.dev",
+      "allnews.pro"
+    ]
+  },
+  "runtime_contains_source": true,
+  "status": "live-verified",
+  "documentation_branch": "codex/ai-footer-20261031",
+  "outcome": "NOT_MEASURED",
+  "observation": {
+    "task_id": "8ae076729b47b8553b08",
+    "carrier": "existing weekly-review",
+    "minimum_per_site": {
+      "sessions": 200,
+      "provider_clicks": 30
+    },
+    "attribution": "Outbound intent only, not AI submission/citation/conversion; missing consent coverage => NOT_MEASURED"
+  }
 }

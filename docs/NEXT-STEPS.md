@@ -2,58 +2,50 @@
 
 ## Metadata
 - Schema: handoff-v2
-- Updated: 2026-10-31T14:43:27+00:00
+- Updated: 2026-10-31T15:35:04.836922+00:00
 - Tool: Codex
 - Branch: codex/ai-footer-20261031
-- HEAD: 8870923ea31174483eb5e0d8f3eba9454d58d3c4
-- Working tree: dirty
+- HEAD: 24f3c4ee18994bf95b48ad3b19e6198d46a59eff
+- Working tree: scoped footer acceptance documentation
 
 ## Current outcome
-- Owner-requested AI assistant footer implemented and production-build verified; existing product state preserved at baseline 8870923ea31174483eb5e0d8f3eba9454d58d3c4. Existing release/observer tasks are not superseded.
+- Authorized fleet AI footer source 24f3c4ee18994bf95b48ad3b19e6198d46a59eff pushed; ordinary production homepage verified at375px and1440px with safe native public prompt links.
+- Existing project task/observer state remains at git show 8870923ea31174483eb5e0d8f3eba9454d58d3c4:docs/NEXT-STEPS.md; this footer task does not supersede it.
 
 ## Delivery ladder
-- implemented: YES; localized public-only links in actual footer
-- tested: Production build PASS; migration fixtures5/5; scoped security review
-- committed: accompanying scoped source commit
-- pushed: PENDING
-- deployed: NOT_VERIFIED for this change
-- activated: NOT_VERIFIED for this change
-- live-verified: PENDING actual public desktop/mobile acceptance
+- implemented: YES; fixed public product prompts and verified existing resources
+- tested: production build PASS; scoped security review; mobile/desktop rendered UI and raw resources PASS
+- committed: source24f3c4ee18994bf95b48ad3b19e6198d46a59eff; accompanying evidence commit
+- pushed: source to main; evidence on this scoped task branch
+- deployed: YES; exact runtime receipt contains source; see acceptance JSON
+- activated: YES; ordinary public URLs, no cache-buster acceptance
+- live-verified: YES; public footer,44px targets, safe rel, correct public origin
 - outcome-measured: NOT_MEASURED
 
 ## Evidence and pointers
-- Evidence:
-  - docs/ai-assistant-footer.md
-  - docs/ai-assistant-footer-acceptance.json
-  - Previous project task state: git show 8870923ea31174483eb5e0d8f3eba9454d58d3c4:docs/NEXT-STEPS.md
-- Read first / changed pointers:
-  - Fleet artifacts /Users/tina/Documents/Codex/2026-10-31/ai-footer-fleet; existing shipany-patches/scripts/sp_ai_footer.py
+- docs/ai-assistant-footer.md; docs/ai-assistant-footer-acceptance.json
+- Fleet: /Users/tina/.codex/worktrees/ask-ai-footer/airap-video-generator/docs/ai-assistant-footer-fleet.md
+- Durable artifacts: /Users/tina/Documents/Codex/2026-10-31/ai-footer-fleet/
+- Existing weekly-review recheck8ae076729b47b8553b08, due2026-11-14T00:45Z; each live site gets14 complete days and200sessions/30clicks minimum.
+- Prior task SSOT: git show 8870923ea31174483eb5e0d8f3eba9454d58d3c4:docs/NEXT-STEPS.md
 
 ## Boundaries
-- Explicit unknowns:
-  - Actual third-party AI answers/citations and conversion effects NOT_VERIFIED; desktop/mobile still pending.
-- Blockers:
-  - No new permission gate for this small reversible change; external failures remain explicit.
-- Authority gates:
-  - User explicitly authorized fleet promotion; no network, production data, provider, auth or payment changes.
-
-## Decisions and rationale
-- Use fixed public brand/site questions and only verified existing resources; no new collector or dependency.
-- Preserve unpublished canonical work and every existing observer anchor; MoFont excluded.
+- Public links contain brand/origin and fixed question only; no user/session/input/media data. Existing auth/payment/provider/private routes preserved.
+- No new analytics collector, scheduler, DNS/rules/proxy/service/production data change. MoFont excluded.
+- Evidence branch does not trigger a redundant production rebuild; the deployed source SHA remains the release anchor.
+- Missing exposure/consent/sample is NOT_MEASURED. Outbound clicks do not establish AI submissions, citations, ranking or conversion lift.
 
 ## Failed attempts / do-not-retry
-- Registry aliases for VoxForge/Suikou were stale; actual product source and deploy map verified instead.
+- Four Workers emitted empty Paraglide modules after a swallowed plugin download error; exact rollback and compiler completeness guard preceded successful repair.
+- AICrawlable outdated OpenNext compiled but failed at runtime; compatible adapter and actual Wrangler preview required. SBTI also uses supported Next/adapter versions.
+- Other sites' historical faults are recorded in the fleet receipts; do not infer this product failed from a fleet-level note.
 
 ## Next actions
-1. Publish this scoped commit through the existing deployment only. — Acceptance: Exact runtime revision and rendered desktop/mobile links/resources pass.
-2. Record live evidence and schedule existing weekly-review observation. — Acceptance: Separate delivery and sample-gated NOT_MEASURED outcomes; no new scheduler.
+1. Existing weekly-review automatically evaluates the scoped14-day sample; absent coverage/sample stays NOT_MEASURED. No manual reminder needed.
+2. On a reproducible footer/link failure attach browser/resource evidence and repair only this source scope through the existing release; preserve all prior observers.
 
 ## First action
-- Check current deployment status and origin branch before pushing; follow exact runtime and public footer acceptance.
+- Read acceptance JSON and the immutable prior project task pointer before any next implementation; check current origin/runtime rather than re-publishing this branch.
 
 ## Resume prompt
-- Complete the authorized public AI footer rollout for this product. Read the acceptance receipt and previous task state at recorded baseline. Preserve private/auth/payment/providers, existing observers and unpublished canonical work. Never infer deployment or outcome from commit/push.
-
-## Deep runbooks
-- ~/Documents/runbooks/auto-deploy-5090-pipeline.md
-- ~/Documents/runbooks/handoff-doc-convention.md
+- Continue the recorded prior project task or existing sample-gated AI-footer observation. Footer delivery is live-verified; no further rollout/push is pending. Preserve unrelated unpublished canonical work and owner gates.
